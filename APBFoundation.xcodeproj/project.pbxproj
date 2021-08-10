@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71CA96DB26C2913C009B5660 /* APBBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CA96D926C2913C009B5660 /* APBBaseCollectionViewCell.h */; };
+		71CA96DC26C2913C009B5660 /* APBBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA96DA26C2913C009B5660 /* APBBaseCollectionViewCell.m */; };
 		71EEA12325646F720008688A /* APBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EEA11925646F720008688A /* APBFoundation.framework */; };
 		71EEA12825646F720008688A /* APBFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EEA12725646F720008688A /* APBFoundationTests.m */; };
 		71EEA12A25646F720008688A /* APBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EEA11C25646F720008688A /* APBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71CA96D926C2913C009B5660 /* APBBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		71CA96DA26C2913C009B5660 /* APBBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBBaseCollectionViewCell.m; sourceTree = "<group>"; };
 		71EEA11925646F720008688A /* APBFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APBFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EEA11C25646F720008688A /* APBFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBFoundation.h; sourceTree = "<group>"; };
 		71EEA11D25646F720008688A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				71EEA138256470290008688A /* APBBaseViewController.m */,
 				71EEA13E256470670008688A /* APBBaseView.h */,
 				71EEA13F256470670008688A /* APBBaseView.m */,
+				71CA96D926C2913C009B5660 /* APBBaseCollectionViewCell.h */,
+				71CA96DA26C2913C009B5660 /* APBBaseCollectionViewCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			files = (
 				71EEA139256470290008688A /* APBBaseViewController.h in Headers */,
 				71EEA12A25646F720008688A /* APBFoundation.h in Headers */,
+				71CA96DB26C2913C009B5660 /* APBBaseCollectionViewCell.h in Headers */,
 				71EEA140256470670008688A /* APBBaseView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EEA13A256470290008688A /* APBBaseViewController.m in Sources */,
+				71CA96DC26C2913C009B5660 /* APBBaseCollectionViewCell.m in Sources */,
 				71EEA141256470670008688A /* APBBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
