@@ -14,5 +14,7 @@ FOUNDATION_EXPORT double APBFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char APBFoundationVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <APBFoundation/PublicHeader.h>
-
+#import <APBFoundation/APBBaseView.h>
+#import <APBFoundation/APBBaseViewController.h>
+#import <APBFoundation/APBBaseCollectionViewCell.h>
 
