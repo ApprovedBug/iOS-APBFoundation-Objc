@@ -17,4 +17,5 @@ FOUNDATION_EXPORT const unsigned char APBFoundationVersionString[];
 #import <APBFoundation/APBBaseView.h>
 #import <APBFoundation/APBBaseViewController.h>
 #import <APBFoundation/APBBaseCollectionViewCell.h>
+#import <APBFoundation/NSManagedObject+Category.h>
 
